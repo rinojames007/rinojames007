@@ -1,6 +1,6 @@
 <br>
 <hr>
-trying to do better...
+<p align="center">trying to do better...</p>
 <hr>
 <br>
 <h3 align="center"> Languages </h3>
