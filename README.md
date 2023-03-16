@@ -32,6 +32,8 @@
 
 <img src="https://img.shields.io/badge/Express-000?logo=express&logoColor=fff&style=for-the-badge" alt="Express Badge">
 
+<img src="https://img.shields.io/badge/Pug-A86454?logo=pug&logoColor=fff&style=for-the-badge" alt="Pug Badge"/>
+  
 <img src="https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=fff&style=for-the-badge" alt="jQuery Badge">
 
 <br>
