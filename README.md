@@ -1,3 +1,10 @@
+<br>
+
+- Hello from a lazy developer trying to overcome procrastination and actually getting something done!
+
+- Currently bashing my head with ML models, and ricing the hell out my linux environment
+
+<br>
 <h3 align="center"> Languages </h3>
 
 <div align="center">
