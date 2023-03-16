@@ -3,6 +3,9 @@
 <h5 align="center">trying to do better...</h5>
 <hr>
 <br>
+
+## Tech Stack
+
 <h3 align="center"> Languages </h3>
 
 <div align="center">
