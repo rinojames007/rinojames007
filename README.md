@@ -1,6 +1,5 @@
 <br>
-<hr>
-<h5 align="center">trying to do better...</h5>
+<p align="center">trying to do better...</p>
 <hr>
 <br>
 
