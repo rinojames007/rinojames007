@@ -72,4 +72,5 @@
 
 </a>
 
+<img src="assets/giphy.gif" alt="Rino wondering" />
 </div>
