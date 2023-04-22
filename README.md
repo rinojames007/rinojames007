@@ -21,7 +21,8 @@
 
 <div align="center">
 
-
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react.js badge">
+  
 <img src="https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=for-the-badge" alt="Node.js Badge">
 
 <br>
