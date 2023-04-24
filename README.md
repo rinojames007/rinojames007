@@ -41,9 +41,9 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=fff&style=for-the-badge"/>
+![MySQL Badge](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=for-the-badge)
+![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=for-the-badge)
 
-<br>
 
 <h3 align="center"> VCS </h3>
 
@@ -65,6 +65,7 @@
 <img src="https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=fff&style=for-the-badge"/>
 
 </div>
+<br>
 <div align="center">
 
 <a href="https://github.com/rinojames007">
