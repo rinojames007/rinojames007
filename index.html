@@ -1,64 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rino James</title>
+  <style>
+    body {
+      font-family: "Courier New", Courier, monospace;
+      margin: 0;
+      padding: 0;
+      background-color: #1e1e1e;
+      color: #dcdcdc;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 0;
+      background-color: #282c34;
+      border-bottom: 2px solid #444;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #888;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    section h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px solid #444;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+    }
+
+    a {
+      color: #61dafb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background-color: #282c34;
+      border-top: 2px solid #444;
+      margin-top: 2rem;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-<header>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#tech-stack">Tech Stack</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#cta">Call to Action (CTA)</a></li>
-        </ul>
-    </nav>
-</header>
+  <header>
+    <h1>Rino James</h1>
+    <p>Software Engineer | Problem Solver | Tech Enthusiast</p>
+  </header>
 
-<main>
-    <section id="about" class="hero">
-        <h2>About Me</h2>
-        <div class="content">
-            <img src="image/rino.jpg" alt="Profile Image">
-            <p>
-                I am a passionate aspiring Backend engineer.<br>
-                Feel free to browse through my portfolio and projects
-                to see my work.
-            </p>
-        </div>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I'm a 4th year student learning computer science with experience in building scalable systems,
+        implementing APIs, reading and making stuff in my leizure time. <br>
+        I do get stuck most of the time, but eventually figure a way out of it.<br>I like solving complex problems and optimizing systems for performance.
+      </p>
     </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <!-- Your Education Section -->
+    <section>
+      <h2>Projects</h2>
+      soon
+      <!-- <ul>
+        <li>
+          <strong><a href="#" target="_blank">Open-Source Developer Platform</a></strong> - A platform designed for developers to collaborate and share projects.
+        </li>
+        <li>
+          <strong><a href="#" target="_blank">Student Management System</a></strong> - Built a system with nested JSON storage for organizing student data.
+        </li>
+        <li>
+          <strong><a href="#" target="_blank">History of Indian Railways</a></strong> - An informative project detailing the evolution of Indian Railways.
+        </li>
+      </ul> -->
     </section>
 
-    <section id="hobbies">
-        <h2>Hobbies</h2>
-        <!-- Your Hobbies Section -->
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Node.js, C, C++, Python</li>
+        <li>PostgreSQL, Redis</li>
+        <li>Jenkins, Docker</li>
+        <li>RESTful APIs, WebSockets</li>
+      </ul>
     </section>
 
-    <section id="tech-stack">
-        <h2>Tech Stack</h2>
-        <!-- Your Tech Stack Section -->
+    <section>
+        <h2>What am i doing these days?</h2>
+        <p>Mostly dreaming lol. but when i'm not, i'm learning about Qt and trying to build an application. also trying to implement http server from scratch in C.
+        </p>
     </section>
+  </main>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <!-- Your Projects Section -->
-    </section>
-
-    <section id="cta">
-        <h2>Call to Action (CTA)</h2>
-        <!-- Your CTA Section -->
-    </section>
-
-    <a href="#about" class="back-to-top"></a>
-</main>
-
-<script src="script.js"></script>
+  <footer>
+    <a href="https://github.com/rinojames007" target="_blank">github</a> | <a href="https://linkedin.com/in/rinojames007" target="_blank">linkedin</a> | <a href="https://x.com/rinojames03" target="_blank">twitter</a>
+  </footer>
 </body>
 </html>
