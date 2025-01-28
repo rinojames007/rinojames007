@@ -1,148 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rino James</title>
-  <style>
-    body {
-      font-family: "Courier New", Courier, monospace;
-      margin: 0;
-      padding: 0;
-      background-color: #1e1e1e;
-      color: #dcdcdc;
-      line-height: 1.6;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rinojames007</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Space Mono', monospace;
+        }
 
-    header {
-      text-align: center;
-      padding: 2rem 0;
-      background-color: #282c34;
-      border-bottom: 2px solid #444;
-    }
+        body {
+            line-height: 1.6;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
 
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
+        h1, h2, h3 {
+            color: #ffffff;
+            margin: 1.5rem 0 1rem 0;
+        }
 
-    header p {
-      font-size: 1rem;
-      color: #888;
-    }
+        a {
+            color: #64ffda;
+            text-decoration: none;
+            transition: opacity 0.2s ease;
+        }
 
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
+        a:hover {
+            opacity: 0.8;
+        }
 
-    section {
-      margin-bottom: 2rem;
-    }
+        .section {
+            margin: 2rem 0;
+        }
 
-    section h2 {
-      font-size: 1.5rem;
-      border-bottom: 1px solid #444;
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-    }
+        .list-item {
+            margin: 0.5rem 0;
+            list-style-type: none;
+            position: relative;
+            padding-left: 1rem;
+        }
 
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
+        .list-item::before {
+            content: "•";
+            color: #64ffda;
+            position: absolute;
+            left: 0;
+        }
 
-    ul li {
-      margin: 0.5rem 0;
-    }
+        footer {
+            margin-top: auto;
+            padding: 20px 0;
+            text-align: center;
+            border-top: 1px solid #333;
+        }
 
-    a {
-      color: #61dafb;
-      text-decoration: none;
-    }
+        footer a {
+            margin: 0 15px;
+        }
 
-    a:hover {
-      text-decoration: underline;
-    }
+        .blog-link {
+            display: block;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #252525;
+            border-radius: 4px;
+            transition: background 0.2s ease;
+        }
 
-    footer {
-      text-align: center;
-      padding: 1rem 0;
-      background-color: #282c34;
-      border-top: 2px solid #444;
-      margin-top: 2rem;
-    }
+        .blog-link:hover {
+            background: #2d2d2d;
+        }
 
-    footer p {
-      font-size: 0.9rem;
-      color: #888;
-    }
-  </style>
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+        }
+
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Rino James</h1>
-    <p>Software Engineer | Problem Solver | Tech Enthusiast</p>
-  </header>
+    <main>
+        <h1>hi, i am rinojames!</h1>
 
-  <main>
-    <section>
-      <h2>About Me</h2>
-      <p>
-        I'm a 4th year student learning computer science with experience in building scalable systems,
-        implementing APIs, reading and making stuff in my leizure time. <br>
-        I do get stuck most of the time, but eventually figure a way out of it.<br>I like solving complex problems and optimizing systems for performance.
-      </p>
-    </section>
+        <p>i am a fourth year student, studying computer science.<br>
+        mainly working in web/app development as of now.</p>
 
-    <section>
-      <h2>Projects</h2>
-      soon
-      <!-- <ul>
-        <li>
-          <strong><a href="#" target="_blank">Open-Source Developer Platform</a></strong> - A platform designed for developers to collaborate and share projects.
-        </li>
-        <li>
-          <strong><a href="#" target="_blank">Student Management System</a></strong> - Built a system with nested JSON storage for organizing student data.
-        </li>
-        <li>
-          <strong><a href="#" target="_blank">History of Indian Railways</a></strong> - An informative project detailing the evolution of Indian Railways.
-        </li>
-      </ul> -->
-    </section>
-
-    <!-- <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>Node.js, C, C++, Python</li>
-        <li>PostgreSQL, Redis</li>
-        <li>Jenkins, Docker</li>
-        <li>RESTful APIs, WebSockets</li>
-      </ul>
-    </section> -->
-
-    <section>
-            <h2>Experience</h2>
+        <section class="section">
+            <h2>experience</h2>
             <ul>
-                <li><strong>Pariksit Inc. Pvt. Ltd.</strong> - Backend Intern</li>
-                <li><strong>Shield Solutions</strong> - Backend Intern</li>
-    </section>
+                <li class="list-item">Full Stack intern @ pariksit inc.</li>
+                <li class="list-item">Backend intern @ shield sols. [Present]</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>What am i doing these days?</h2>
-        <p>Mostly dreaming lol. but when i'm not, i'm learning about Qt and trying to build an application. also trying to implement http server from scratch in C.
-        </p>
-    </section>
+        <!-- <section class="section">
+            <h2>projects</h2>
+            <ul>
+                <li class="list-item">serious projects</li>
+                <li class="list-item">fun projects</li>
+            </ul>
+        </section> -->
 
-    <section>
-        <h2>Technical Blogs</h2>
-        <p>soon</p>
-    </section>
-  </main>
+        <section class="section">
+            <h2>projects</h2>
+            <ul>
+                <li class="list-item">soon</li>
+            </ul>
+        </section>
 
-  <footer>
-    <a href="https://github.com/rinojames007" target="_blank">github</a> | <a href="https://linkedin.com/in/rinojames007" target="_blank">linkedin</a> | <a href="https://x.com/rinojames03" target="_blank">twitter</a>
-  </footer>
+
+        <section class="section">
+            <h2>my blogs</h2>
+            <ul>
+                <li class="list-item">
+                    <a href="/technical-blogs.html" class="blog-link">technical blogs</a>
+                </li>
+                <li class="list-item">
+                    <a href="/cp-algorithms.html" class="blog-link">CP algorithms i've learned</a>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="https://github.com/rinojames007" target="_blank">github</a> |
+        <a href="https://linkedin.com/in/rinojames007" target="_blank">linkedin</a> |
+        <a href="https://x.com/rinojames03" target="_blank">twitter</a>
+    </footer>
 </body>
 </html>
