@@ -1,49 +1,72 @@
-/* Global Styles */
-body {
-    font-family: 'Courier New', monospace;
-    background-color: #121212;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Space Mono', monospace;
+        }
 
-/* Header */
-header {
-    padding: 20px;
-    background-color: #1f1f1f;
-}
+        body {
+            line-height: 1.6;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
 
-h1 {
-    font-size: 2rem;
-    margin: 10px 0;
-}
+        h1, h2, h3 {
+            color: #ffffff;
+            margin: 1.5rem 0 1rem 0;
+        }
 
-p {
-    font-size: 1rem;
-    color: #aaa;
-}
+        a {
+            color: #64ffda;
+            text-decoration: none;
+            transition: opacity 0.2s ease;
+        }
 
-/* Sections */
-section {
-    margin: 30px auto;
-    max-width: 800px;
-    padding: 20px;
-    border-bottom: 1px solid #333;
-}
+        a:hover {
+            opacity: 0.8;
+        }
 
-/* Project & Blog Container */
-#project-list, #blog-list {
-    margin-top: 10px;
-}
+        .section {
+            margin: 2rem 0;
+        }
 
-/* Footer */
-footer {
-    background-color: #1f1f1f;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    font-size: 0.9rem;
-    color: #aaa;
-}
+        .list-item {
+            margin: 0.5rem 0;
+            list-style: none;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 20px 0;
+            text-align: center;
+            border-top: 1px solid #333;
+        }
+
+        footer a {
+            margin: 0 15px;
+        }
+
+        .blog-link {
+            display: block;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #252525;
+            border-radius: 4px;
+            transition: background 0.2s ease;
+        }
+
+        .blog-link:hover {
+            background: #2d2d2d;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+        }
